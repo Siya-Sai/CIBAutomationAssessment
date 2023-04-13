@@ -1,3 +1,4 @@
+@addUser
 Feature: Add Users to User List Table
 
   Scenario Outline: Add a user to the list
