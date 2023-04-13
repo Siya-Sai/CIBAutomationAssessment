@@ -1,4 +1,6 @@
+@dogAPI
 Feature: Dog API tests
+
   Scenario: Retrieve all dog breeds
     Given I send a request to the Dog API to list all breeds
 
