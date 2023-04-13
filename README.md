@@ -12,8 +12,6 @@ This project is a comprehensive testing framework that combines Selenium WebDriv
 3. [Installation and Setup](#installation-and-setup)
 4. [Running Tests](#running-tests)
 5. [Test Reports](#test-reports)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Project Overview
 
@@ -52,5 +50,8 @@ mvn test -Dtest=CucumberTestRunnerWeb
 2. For API tests:
 mvn test -Dtest=CucumberTestRunnerWeb
 
+## Test Reports
 
+After the test execution, Cucumber generates HTML reports for both web and API tests. You can find the reports in the following directories:
+target/cucumber-reports
 
