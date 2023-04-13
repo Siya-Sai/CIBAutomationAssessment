@@ -48,7 +48,7 @@ To run the tests, you can use the following Maven commands:
 1. For web tests: 
 mvn test -Dtest=CucumberTestRunnerWeb
 2. For API tests:
-mvn test -Dtest=CucumberTestRunnerWeb
+mvn test -Dtest=CucumberTestRunnerApi
 
 ## Test Reports
 
