@@ -46,8 +46,10 @@ mvn clean install
 To run the tests, you can use the following Maven commands:
 
 1. For web tests: 
+run CucumberTestRunnerWeb class or
 mvn test -Dtest=CucumberTestRunnerWeb
 2. For API tests:
+run CucumberTestRunnerApi class or
 mvn test -Dtest=CucumberTestRunnerApi
 
 ## Test Reports
