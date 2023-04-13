@@ -28,7 +28,7 @@ This project is structured to efficiently manage and execute web and API tests. 
 
 To run this project, you need the following software and tools installed on your machine:
 
-1. Java JDK 8 or higher
+1. Java JDK 11 or higher
 2. Apache Maven 3.6.0 or higher
 3. Chrome browser (latest version recommended)
 4. ChromeDriver (compatible with the installed Chrome browser version)
@@ -42,6 +42,15 @@ To run this project, you need the following software and tools installed on your
 
 3. Navigate to the project directory in the terminal and run the following command to download and install the required dependencies:
 mvn clean install
+
+## Running Tests
+
+To run the tests, you can use the following Maven commands:
+
+1. For web tests: 
+mvn test -Dtest=CucumberTestRunnerWeb
+2. For API tests:
+mvn test -Dtest=CucumberTestRunnerWeb
 
 
 
